@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html">Generosity Grant</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">CAUSES</a></li>
+                    <li><a href="">MISSION</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()" ></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Embracing the Essence of Magnificence in Donations</h1>
+            <p>Join us on a journey that transcends ordinary contributions, embracing the profound impact of philanthropy adorned with grace, elegance, and a touch of opulence.</p>
+            <!-- <a href="" class="hero-btn">Donate Now</a> -->
+            <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_M2VuH4k9piX6Uz" async> </script> </form>
+        </div>
+    </section>
+
+    <section class="causes">
+        <h1>Let's Make A Difference Today</h1>
+
+        <div class="row">
+            <div class="cause-col">
+                <h3>Become A Volunteer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate similique, molestias magni assumenda voluptates sed unde optio voluptatem, impedit quae sequi cum sapiente repellat veniam.</p>
+            </div>
+            <div class="cause-col">
+                <h3>Donate To Support</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate similique, molestias magni assumenda voluptates sed unde optio voluptatem, impedit quae sequi cum sapiente repellat veniam.</p>
+            </div>
+            <div class="cause-col">
+                <h3>Become A Partner</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate similique, molestias magni assumenda voluptates sed unde optio voluptatem, impedit quae sequi cum sapiente repellat veniam.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="mission">
+        <h1>Our Missions</h1>
+        <div class="row">
+            <div class="mission-col">
+                <img src="./images/earth.jpg">
+                <h3>Make The World Green</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate similique, molestias magni assumenda voluptates sed unde optio voluptatem, impedit quae sequi cum sapiente repellat veniam.</p>
+            </div>
+            <div class="mission-col">
+                <img src="./images/help.jpg">
+                <h3>Financial Help For Poor Families</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate similique, molestias magni assumenda voluptates sed unde optio voluptatem, impedit quae sequi cum sapiente repellat veniam.</p>
+            </div>
+            <div class="mission-col">
+                <img src="./images/education.jpg">
+                <h3>Send Child To School</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate similique, molestias magni assumenda voluptates sed unde optio voluptatem, impedit quae sequi cum sapiente repellat veniam.</p>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="cta">
+        <h1>Be A Part Of Our Impactful Mission By Uniting With Us <br>In Our Donation Campaign</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate similique, molestias magni assumenda voluptates sed unde optio<br> voluptatem, impedit quae sequi cum sapiente repellat veniam.</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        
+    </section>
+    <script>
+
+        var navLinks=document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
